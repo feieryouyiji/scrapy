@@ -1,3 +1,4 @@
+#-*- coding:utf-8 -*-
 import scrapy
 from tutorial.items import ExamItem
 from bs4 import BeautifulSoup  
