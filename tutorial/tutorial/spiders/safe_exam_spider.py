@@ -4,6 +4,7 @@ from tutorial.items import SafeExamItem
 from bs4 import BeautifulSoup
 import re
 
+
 class SafeExamSpider(scrapy.Spider):
     name = "safe_exam"
     allowed_domains = ["wjx.cn"]

@@ -41,3 +41,20 @@ class SafeExamItem(scrapy.Item):
     option5 = scrapy.Field()
     correct_answer = scrapy.Field()
     score = scrapy.Field()
+
+
+#### 房产经纪人
+class EvaluationItem(scrapy.Item):
+    num = scrapy.Field()
+    type = scrapy.Field()
+    title = scrapy.Field()
+    option1 = scrapy.Field()
+    option2 = scrapy.Field()
+    option3 = scrapy.Field()
+    option4 = scrapy.Field()
+    option5 = scrapy.Field()
+    score1 = scrapy.Field()
+    score2 = scrapy.Field()
+    score3 = scrapy.Field()
+    score4 = scrapy.Field()
+    score5 = scrapy.Field()
